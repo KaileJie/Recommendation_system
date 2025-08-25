@@ -1,0 +1,4 @@
+source,recall@10,precision@10
+keyword_hybrid,0.1361,0.1145
+tfidf,0.1351,0.1127
+textrank,0.1363,0.1148
