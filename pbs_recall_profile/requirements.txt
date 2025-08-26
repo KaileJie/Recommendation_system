@@ -1,0 +1,20 @@
+# Core Dependencies
+scrapy>=2.11.0
+pymongo>=4.5.0
+numpy>=1.25.0
+scikit-learn>=1.3.0
+nltk>=3.8.1
+
+# FastAPI for serving recall API
+fastapi>=0.110.0
+uvicorn>=0.27.0
+
+# Optional: Fuzzy keyword matching
+python-Levenshtein>=0.20.9
+
+# Optional: Logging enhancement
+coloredlogs>=15.0.1
+
+# Optional: Gensim for future TextRank support (if used)
+gensim>=4.3.1
+
