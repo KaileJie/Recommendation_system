@@ -6,3 +6,7 @@ recommendation_system/output/youtube_dnn/youtube_dnn_model.pt
 recommendation_system_10.0/./data/processed/user_profile_feature.csv
 recommendation_system_10.0/./data/raw/user_behavior_log_info.csv
 recommendation_system_10.0/./output/youtube_dnn/youtube_dnn_model.pt
+recommendation_system_10.0_new/data/processed/user_profile_feature.csv
+recommendation_system_10.0_new/data/raw/user_behavior_log_info.csv
+recommendation_system_10.0_new/output/youtube_dnn/youtube_dnn_faiss_recall.csv
+recommendation_system_10.0_new/output/youtube_dnn/youtube_dnn_model.pt

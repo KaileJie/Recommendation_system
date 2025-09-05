@@ -1,0 +1,3 @@
+metric,value
+Recall@20,0.457278
+Precision@20,0.421356
