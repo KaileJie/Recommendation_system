@@ -1,0 +1,15 @@
+{
+  "user_cate_dims": {
+    "gender": 3,
+    "age_range": 8,
+    "city": 15,
+    "cluster_id": 4
+  },
+  "user_numeric_dim": 9,
+  "embed_dim": 16,
+  "max_seq_len": 10,
+  "hidden_dims": [
+    32,
+    16
+  ]
+}

@@ -1,0 +1,1 @@
+{"num_users": 424170, "num_items": 419, "user_cate_dims": {"gender": 3, "age_range": 9, "city": 15, "cluster_id": 4}, "user_numeric_dim": 3, "item_text_dim": 300, "embed_dim": 64, "max_seq_len": 50, "use_sequence": true}

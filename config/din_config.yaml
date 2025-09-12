@@ -1,0 +1,61 @@
+# DIN Model Configuration
+
+# 模型参数
+model:
+  embed_dim: 32        # 减小嵌入维度
+  max_seq_len: 20      # 减小序列长度
+  hidden_dims: [64, 32] # 减小隐藏层维度
+  learning_rate: 0.001
+  batch_size: 128      # 减小批次大小
+  num_epochs: 5        # 减少训练轮数
+
+# 数据参数
+data:
+  cutoff_days: 7      # 标签窗口天数
+  train_days: 7       # 减小训练数据窗口
+  neg_pos_ratio: 2    # 减少负样本比例
+  top_k: 20          # 推荐数量
+  max_samples: 100000 # 限制最大样本数
+
+# 特征配置
+features:
+  user_categorical:
+    - gender
+    - age_range
+    - city
+    - cluster_id
+  
+  user_numerical:
+    - recency
+    - frequency
+    - monetary
+    - rfm_score
+    - actions_per_active_day_30d
+    - morning_ratio_30d
+    - afternoon_ratio_30d
+    - evening_ratio_30d
+    - late_night_ratio_30d
+  
+  item_categorical:
+    - category
+    - brand
+  
+  item_numerical:
+    - price
+    - rating
+    - review_count
+
+# 数据路径
+paths:
+  recall_data: "output/fusion/fusion_recall.csv"
+  user_profile: "data/processed/user_profile_feature.csv"
+  item_metadata: "data/raw/item_metadata.csv"
+  behavior_log: "data/raw/user_behavior_log_info.csv"
+
+# 输出路径
+output:
+  model_path: "output/din/din_model.pt"
+  config_path: "output/din/din_config.json"
+  loss_log_path: "output/din/din_loss_log.csv"
+  infer_output_path: "output/din/din_infer.csv"
+  eval_metrics_path: "output/din/din_eval_metrics.csv"
