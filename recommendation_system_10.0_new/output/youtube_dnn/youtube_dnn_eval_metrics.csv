@@ -1,0 +1,5 @@
+metric,value
+Recall@50,0.503686
+Precision@50,0.010775
+HitRate@50,0.525123
+NDCG@50,0.247975

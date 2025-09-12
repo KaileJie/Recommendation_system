@@ -1,0 +1,5 @@
+/bin/bash: /Users/dallylovely/Desktop/CCGG/Projects/pbs_spider/run_pbs.sh: Operation not permitted
+/bin/bash: /Users/dallylovely/Desktop/CCGG/Projects/pbs_spider/run_pbs.sh: Operation not permitted
+/bin/bash: /Users/dallylovely/Desktop/CCGG/Projects/pbs_spider/run_pbs.sh: Operation not permitted
+/bin/bash: /Users/dallylovely/Desktop/CCGG/Projects/pbs_spider/run_pbs.sh: Operation not permitted
+/bin/bash: /Users/dallylovely/Desktop/CCGG/Projects/pbs_spider/run_pbs.sh: Operation not permitted

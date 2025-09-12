@@ -176,3 +176,9 @@ tmp/
 temp/
 *.tmp
 *.temp
+
+# Old versions - exclude from tracking
+pbs_recall_profile/
+recommendation_system/
+recommendation_system_10.0/
+recommendation_system_10.0_new/
